@@ -1,5 +1,11 @@
 public class Armen {
 	public static void main(String[] args) {
-		System.out.println("Armen Arslanian");
+		Armen a = new Armen();
+		a.print("Armen Arslanian");
+	}
+	/* print
+	 */
+	public void print(Object ob) {
+		System.out.println(ob);
 	}
 }
